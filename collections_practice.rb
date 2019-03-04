@@ -36,7 +36,11 @@ end
 end
 
 def sum_array(array)
-  
+  sum = 0
+  array.each do |num|
+    sum += num
+  end
+end
   
   
   
