@@ -44,7 +44,7 @@ def sum_array(array)
 end
   
 def add_s(array)
-  return word if array[1] = word
+  return word if array[1] == word
 else 
   word + "s"
 end
