@@ -1,14 +1,17 @@
-def sort_array_asc(numbers)
-numbers.sort
+def sort_array_asc(array)
+array.sort
 end
 
-def sort_array_desc(numbers)
-  numbers.sort do |left, right| right<=>left
+def sort_array_desc(array)
+  array.sort do |left, right| right<=>left
 end
 end
 
-def sort_array_char_count(numbers)
-  numbers.sort do |left, right|
+def sort_array_char_count(array)
+  array.sort do |left, right|
     left.length <=> right.length
 end
 end
+
+def swap_elements(array)
+  
