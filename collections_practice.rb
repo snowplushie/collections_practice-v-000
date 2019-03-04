@@ -8,6 +8,7 @@ end
 end
 
 def sort_array_char_count(numbers)
-  numbers.sort do |left, right| && left.length <=> right.length
+  numbers.sort do |left, right|
+    left.length <=> right.length
 end
 end
