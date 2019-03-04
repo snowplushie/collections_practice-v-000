@@ -14,5 +14,5 @@ end
 end
 
 def swap_elements(array)
-  array.sort {|left, right| right <=> left}
+  array.
 end
