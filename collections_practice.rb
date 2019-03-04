@@ -5,3 +5,4 @@ end
 def sort_array_desc(numbers)
   numbers.sort do {|left, right| right<=>left}
 end
+end
