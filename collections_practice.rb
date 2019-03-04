@@ -1,2 +1,3 @@
-def sort_array_asc(25, 7, 1)
-  .sort {|number| 
+def sort_array_asc(numbers)
+  numbers.sort {|number| number.length}
+end
