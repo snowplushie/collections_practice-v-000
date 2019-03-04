@@ -3,6 +3,6 @@ numbers.sort
 end
 
 def sort_array_desc(numbers)
-  numbers.sort do {|left, right| right<=>left}
+  numbers.sort do |left, right| right<=>left
 end
 end
